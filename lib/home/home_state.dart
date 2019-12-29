@@ -3,7 +3,7 @@ import 'package:meta/meta.dart';
 
 @immutable
 abstract class HomeState extends Equatable {
-  HomeState([Iterable props]) : super(props);
+//  HomeState([Iterable props]) : super();
 
   /// Copy object for use in action
   HomeState getStateCopy();
@@ -17,7 +17,12 @@ class UnHomeState extends HomeState {
   HomeState getStateCopy() {
     return UnHomeState();
   }
+
+  @override
+  List<Object> get props => [];
 }
+
+
 
 class InHomeState extends HomeState {
   @override
@@ -27,6 +32,9 @@ class InHomeState extends HomeState {
   HomeState getStateCopy() {
     return InHomeState();
   }
+
+  @override
+  List<Object> get props => [];
 }
 
 class ErrorHomeState extends HomeState {
@@ -41,4 +49,7 @@ class ErrorHomeState extends HomeState {
   HomeState getStateCopy() {
     return ErrorHomeState(this.errorMessage);
   }
+
+  @override
+  List<Object> get props => [errorMessage];
 }

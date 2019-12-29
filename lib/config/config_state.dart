@@ -3,7 +3,7 @@ import 'package:meta/meta.dart';
 
 @immutable
 abstract class ConfigState extends Equatable {
-  ConfigState([List props = const <dynamic>[]]) : super(props);
+//  ConfigState([List props = const <dynamic>[]]) : super(props);
 
   ConfigState getStateCopy();
 }
@@ -15,6 +15,9 @@ class UnConfigState extends ConfigState {
   ConfigState getStateCopy() {
     return UnConfigState();
   }
+  @override
+  List<Object> get props => [];
+
 }
 
 class InConfigState extends ConfigState {
@@ -24,6 +27,8 @@ class InConfigState extends ConfigState {
   ConfigState getStateCopy() {
     return InConfigState();
   }
+  @override
+  List<Object> get props => [];
 }
 
 class ErrorConfigState extends ConfigState {
@@ -37,4 +42,6 @@ class ErrorConfigState extends ConfigState {
   ConfigState getStateCopy() {
     return ErrorConfigState(this.errorMessage);
   }
+  @override
+  List<Object> get props => [errorMessage];
 }
