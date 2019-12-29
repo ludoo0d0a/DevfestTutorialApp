@@ -8,8 +8,10 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="devfest_demo"
+        android:label="Devfest Mumbai"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:value="AIzaSyBbVhNgB0A4LxV1dFZHiUjSo43swxyGYRY"
+            android:name="com.google.android.geo.API_KEY"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

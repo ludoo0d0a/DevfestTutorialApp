@@ -81,90 +81,145 @@ class Speaker {
 List<Speaker> speakers = [
   Speaker(
     speakerImage:
-        "https://avatars1.githubusercontent.com/u/12619420?s=400&u=eac38b075e4e4463edfb0f0a8972825cf7803d4c&v=4",
-    speakerName: "Pawan Kumar",
-    speakerDesc: "Google Developer Expert, Flutter",
-    speakerSession: "Talk: Getting Started With Flutter For Web",
-    fbUrl: "https://facebook.com/imthepk",
-    githubUrl: "https://github.com/iampawan",
-    linkedinUrl: "https://linkedin.com/in/imthepk",
-    twitterUrl: "https://twitter.com/imthepk",
+        "https://sessionize.com/image?f=bcede5a3a80070703471128fa4262bfa,400,400,True,False,5d-da47-4dee-9428-1ef0efb15c1f.172b43e2-0718-4e84-98ff-f94201e604d5.PNG",
+    speakerName: "Aliakbar Attarwala",
+    speakerDesc: "Front-end Architect - BookMyShow",
+    speakerSession: "Scaling Frontend Development and Micro-Frontend Architecture",
+    
+    githubUrl: "https://github.com/alliv8",
+    twitterUrl: "https://twitter.com/alliv8",
   ),
   Speaker(
     speakerImage:
-        "https://devfest.withgoogle.com/api/assets?path=/gs/gweb-gc-gather-production.appspot.com/files/L2FwcGhvc3RpbmdfZ2xvYmFsL2Jsb2JzL0FFbkIyVW9DRktRcllTZDN1T2VINnhiUC11M2pVUFZFLVI0dVh5czF6d2lKNGRwanJjVjJhWm1zSUJZelVkZzBRaG9uRkNJZmhVZEg3ZGpVV0RhRmpQWXFYeHU0Y1ZDRmROb3FQYnVBQ2VKMWdOSFRHS3B0YWxRLk8xa3k2cVpFOG15UFAyRnk",
-    speakerName: "Laura Morinigo",
-    speakerDesc: "Software Developer, DMod Labs",
-    speakerSession: "How I Became a Mobile Developer with Firebase and Flutter",
-    fbUrl: "https://facebook.com/imthepk",
-    githubUrl: "https://github.com/iampawan",
-    linkedinUrl: "https://linkedin.com/in/imthepk",
-    twitterUrl: "https://twitter.com/imthepk",
+        "https://sessionize.com/image?f=3b32f5b895502cfc94721839ee496d74,400,400,True,False,18-131f-4ff0-b644-43ba706b82e8.8d1b0d00-5caa-48bb-889d-94e931646e3c.jpg",
+    speakerName: "Adit Lal",
+    speakerDesc: "Adit is a Product Engineer, Android at GoJek. He is been working in the industry for close to 6 years. Some of his hobbies are Stargazing, Travel and Landscape Photography",
+    speakerSession: "Effective DI for Multi Module Project",
+    
+    githubUrl: "https://github.com/aldefy",
+    linkedinUrl: "https://linkedin.com/in/aditlal",
+    twitterUrl: "https://twitter.com/aditlal",
   ),
   Speaker(
-    speakerSession: "Angular Elements",
+    speakerSession: "Integrating Firestore as a backend in your Flutter app.",
     speakerImage:
-        "https://devfest.withgoogle.com/api/assets?path=/gs/gweb-gc-gather-production.appspot.com/files/L2FwcGhvc3RpbmdfZ2xvYmFsL2Jsb2JzL0FFbkIyVXJET043VnFRT2R1UHdyS1lFUElwLVNaYlVVbnc1enJuNTNGbUtQQjR0SF9STVUzMVptdkgzclRpRjhTUDc2WUNvNldKNFVacFhiXzF4bUoxTVc0RzlfXzF3d2tPUXl4NTNSNjBNSzRoaXB1VVBxOTRFLk0yOHMwWm1NeURjaWxQZ1k",
-    speakerName: "Jimenez Raul",
-    speakerDesc: "Software Engineer, Byte Default",
-    fbUrl: "https://facebook.com/imthepk",
-    githubUrl: "https://github.com/iampawan",
-    linkedinUrl: "https://linkedin.com/in/imthepk",
-    twitterUrl: "https://twitter.com/imthepk",
+        "https://sessionize.com/image?f=7b5628f004a52f0b8a33836535f3247a,400,400,True,False,db-8a29-4a91-942c-f25e8a7b02cb.bda772ee-5a1d-451e-ab70-440e7899e3e4.jpg",
+    speakerName: "Bhavik Makwana",
+    speakerDesc: "He is a Flutter Enthusiast, Google certified associate android developer and Open-source contributor.",
+    
+    githubUrl: "https://github.com/ibhavikmakwana",
+    linkedinUrl: "https://in.linkedin.com/in/ibhavikmakwana",
+    twitterUrl: "https://twitter.com/ibhavikmakwana",
+  ),
+ Speaker(
+    speakerSession: "Scale your Web Application Securely on Compute Engine",
+    speakerImage:
+        "https://sessionize.com/image?f=08c586fb06ca3bde335b98ebc60d3cab,400,400,True,False,a1-84a6-409a-a6ee-849f10c6b9d3.9c35028b-1e91-4dea-874f-26b13029a983.jpg",
+    speakerName: "Chirag Nayyar",
+    speakerDesc: "A hardcore public cloud platform learner and like to share my learning, tweaks with everyone.",
+    
+    githubUrl: "https://github.com/chiragnayyar",
+    linkedinUrl: "https://in.linkedin.com/in/chiragnayyar",
+    twitterUrl: "https://twitter.com/chiragnayyar",
+  ),
+   Speaker(
+    speakerSession: "How to handle the Training Model Hangover",
+    speakerImage:
+        "https://sessionize.com/image?f=37b054f417d183224056a451f09fbe95,400,400,True,False,e6-7ed5-4a0a-a989-79f53f980674.bf55d10e-731d-4425-8201-2be0488539f9.jpg",
+    speakerName: "Pratik Parmar",
+    speakerDesc: "A Data Scientist who caught the travel bug.",
+    
+    githubUrl: "https://github.com/HackyRoot",
+    linkedinUrl: "https://www.linkedin.com/in/pratikparmar1/",
+    twitterUrl: "https://twitter.com/hackyroot",
+  ),
+  
+  Speaker(
+    speakerSession: "Level Up as a Developer",
+    speakerImage:
+        "https://avatars2.githubusercontent.com/u/1614870?s=460&v=4",
+    speakerName: "Romin Irani",
+    speakerDesc: "My passion is to help developers succeed.",
+    
+    githubUrl: "https://github.com/rominirani",
+    linkedinUrl: "",
+    twitterUrl: "https://twitter.com/iRomin",
   ),
   Speaker(
-    speakerSession: "Machine Learning and AutoML on GCP",
+    speakerSession: "Flutter in existing native apps",
     speakerImage:
-        "https://devfest.withgoogle.com/api/assets?path=/gs/gweb-gc-gather-production.appspot.com/files/AEnB2UozlnKuWKqwaGjT2U6ylLLyMtoByOnx-ctrRmn5A8kptjCS50E8EgQDSuxYg8chsldOmSLbHScKX0ERlngHvbRp5XVRyNuAUSIm_Hguq3THTisLLaU.UyKUL3gyFQsEAcmO",
-    speakerName: "Sathish V J",
-    speakerDesc: "Tech Architect, Investor, Tutor",
-    fbUrl: "https://facebook.com/imthepk",
-    githubUrl: "https://github.com/iampawan",
-    linkedinUrl: "https://linkedin.com/in/imthepk",
-    twitterUrl: "https://twitter.com/imthepk",
+        "https://sessionize.com/image?f=dd0404c6ebc261e200b879dc962bb952,400,400,True,False,39-a82f-4c7b-a256-36766fb849e7.e86e03af-7398-4c60-9e4d-189d9269c134.JPG",
+    speakerName: "Rahul Devanavar",
+    speakerDesc: "The startup guy, always eager to experiment with new technology. Has 5 years of experience in mobile application development (Android, iOS, and Flutter).",
+    
+    githubUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/rahuldevanavar/",
+    twitterUrl: "https://twitter.com/Rahuldeva91",
   ),
   Speaker(
-    speakerSession: "Top 5 from Firebase Summit '18",
+    speakerSession: "Make Your Actions More Powerful",
     speakerImage:
-        "https://devfest.withgoogle.com/api/assets?path=/gs/gweb-gc-gather-production.appspot.com/files/AEnB2UqZAYU9q0R5K2cq94DxU7ebiOMhilDlx5NzzsWWZ_oHxqcZV8H8j594rg_q_vyfTToA0BfScTHOHAj8uKf2OeF5MVqa_jmdjC9JO9-2TcPWjboxPf8.NN-XmkQxmHl1XyY_",
-    speakerName: "Timothy Jordan",
-    speakerDesc: "Sr. Staff Developer Advocate, Google",
-    fbUrl: "https://facebook.com/imthepk",
-    githubUrl: "https://github.com/iampawan",
-    linkedinUrl: "https://linkedin.com/in/imthepk",
-    twitterUrl: "https://twitter.com/imthepk",
+        "https://sessionize.com/image?f=06772eacb5bcce6a4fac8686379d2679,400,400,True,False,62872118-2e37-49a8-9c2f-580772334f19.jpg",
+    speakerName: "Ravi Rupareliya",
+    speakerDesc: "Sr. Software Engineed - Simform Solutions",
+    
+    githubUrl: "https://github.com/ravirupareliya",
+    linkedinUrl: "https://www.linkedin.com/in/ravi-rupareliya/",
+    twitterUrl: "https://twitter.com/ravi_rupareliya",
   ),
   Speaker(
-    speakerSession: "Multiplayer Games with WebXR",
+    speakerSession: "Let's Talk Composing UI",
     speakerImage:
-        "https://devfest.withgoogle.com/api/assets?path=/gs/gweb-gc-gather-production.appspot.com/files/L2FwcGhvc3RpbmdfZ2xvYmFsL2Jsb2JzL0FFbkIyVXJ2Zkg0YUY1ZFJoMFFRbWlqdFE4MV9nNTdJR0dxUS1ubVJfbkN2Y1RaS3VoaUp2dWd3ejNmUmJRekFQaU5QNGhqd1F6cUtKQXpYeXJkemVyS2hUY1NzSWloMXFCNzQzdmpRVVVmU0Z4XzJZRDVZQXVBLnFHVllKVmc2MUVzQVZ5bVI",
-    speakerName: "Tanay Pant",
-    speakerDesc: "Web Developer Advocate, Mozilla Foundation",
-    fbUrl: "https://facebook.com/imthepk",
-    githubUrl: "https://github.com/iampawan",
-    linkedinUrl: "https://linkedin.com/in/imthepk",
-    twitterUrl: "https://twitter.com/imthepk",
+        "https://sessionize.com/image?f=475d4315df3c8424000efc8933be310d,400,400,True,False,7c-9ec9-4533-b50f-0b03493041d1.0bdfa3c1-b3dc-43ac-a823-925657ef776f.jpg",
+    speakerName: "Rivu Chakraborty",
+    speakerDesc: "Kotlin Evangelist, Author, Speaker, Community Person, Sr. Android Dev.",
+    
+    githubUrl: "https://github.com/RivuChk",
+    linkedinUrl: "https://www.linkedin.com/in/rivuchk/",
+    twitterUrl: "https://twitter.com/rivuchakraborty",
   ),
   Speaker(
-    speakerSession: "Mobile Database Persistence",
+    speakerSession: "Protocol Buffers: Is it worth the switch from JSON?",
     speakerImage:
-        "https://devfest.withgoogle.com/api/assets?path=/gs/gweb-gc-gather-production.appspot.com/files/AEnB2UqEG002BsGCqZLZRFUGu9xo4IpGamz6gTqlWxWyME0s-n8gR7Rs0tM5R6mPMOCRYf5rAunWx0GQeXDUHPag_XWGApdekw.cks8tPlPy-TeucOT",
-    speakerName: "Eric Maxwell",
-    speakerDesc: "Software Developer, Big Nerd Ranch",
-    fbUrl: "https://facebook.com/imthepk",
-    githubUrl: "https://github.com/iampawan",
-    linkedinUrl: "https://linkedin.com/in/imthepk",
-    twitterUrl: "https://twitter.com/imthepk",
+        "https://sessionize.com/image?f=4efda98a3580eabb450c73f03259e183,400,400,True,False,79-cf62-4260-ba90-ca72f59f8e17.a0f9478f-a36c-44da-9244-c0f9e5213562.jpeg",
+    speakerName: "Rishabh Singh",
+    speakerDesc: "I’m Rishabh, a developer, consultant, tech evangelist & a struggling entrepreneur. I’m the lead developer at OffPay (@getoffpay), where my team & I try to make things happen without the internet!",
+    
+    githubUrl: "https://github.com/cheesetouched",
+    linkedinUrl: "https://www.linkedin.com/in/pingrishabh",
+    twitterUrl: "https://twitter.com/pingrishabh",
   ),
   Speaker(
-    speakerSession: "Progressive Experience Web Development",
+    speakerSession: "Importance of tech in non-technical product based startups and how to handle it",
     speakerImage:
-        "https://devfest.withgoogle.com/api/assets?path=/gs/gweb-gc-gather-production.appspot.com/files/L2FwcGhvc3RpbmdfZ2xvYmFsL2Jsb2JzL0FFbkIyVXBET0RKT0JBV195UjVuSDRKS3JEenphN2gzLW80WEdvenlGdkZhNGREUzFmQUk1RjJnR0N5eEJIdlBkOVhlLUdwalVSWXlxbXJ4VFA0QXRZdnB4WDllWFNpdmdiNy14Q0tLOENCeU41Yks4NF9vUVQ0LlVFY0RBeld0ZTd4OEtSUTg",
-    speakerName: "Yohan Totting",
-    speakerDesc: "Web Developer Advocate, Google",
-    fbUrl: "https://facebook.com/imthepk",
-    githubUrl: "https://github.com/iampawan",
-    linkedinUrl: "https://linkedin.com/in/imthepk",
-    twitterUrl: "https://twitter.com/imthepk",
+        "https://sessionize.com/image?f=4203821c19f2a40d8e020c000dc850df,400,400,True,False,f6-0fb5-46db-929f-a0d69b45ed70.f7949ef7-6347-4bf9-bc66-b743cb69074a.jpg",
+    speakerName: "Rohit Bhaskar",
+    speakerDesc: "Current technical lead at Elevar Sports",
+    
+    githubUrl: "https://github.com/rohitbhaskar",
+    linkedinUrl: "https://www.linkedin.com/in/rohitb1vs10/",
+    twitterUrl: "https://twitter.com/rohitb1v10",
+  ),
+    Speaker(
+    speakerSession: "Demystifying React Hooks",
+    speakerImage:
+        "https://sessionize.com/image?f=dce8cd3d9ada417ea02fb400e4c27773,400,400,True,False,77-d846-4f23-b0a4-50e9aa3b4ccc.ab50f22b-d2de-43dc-8241-6109c84255d7.jpg",
+    speakerName: "Tathagat Thapliyal",
+    speakerDesc: "Co-Founder, CTO At Voz",
+    
+    githubUrl: "https://github.com/tathagat2006",
+    linkedinUrl: "https://www.linkedin.com/in/tathagat-thapliyal/",
+    twitterUrl: "https://twitter.com/sumoneisback001",
+  ),
+  Speaker(
+    speakerSession: "Introspection through coding: Getting to know yourself",
+    speakerImage:
+        "https://sessionize.com/image?f=c61d66fc547ec9681f19e3b69fe5f813,400,400,True,False,ed-4a13-410f-bb3b-f27e4dc2b7e6.0ebf15cd-5cd2-4e36-bdd4-5815739dab6b.jpeg",
+    speakerName: "Zeel Mehta",
+    speakerDesc: "Tech Enthusiast,Brand Strategy Manager who is simultaneously learning various programming languages",
+    
+    githubUrl: "https://github.com/zeel97",
+    linkedinUrl: "https://www.linkedin.com/in/zeel-mehta-550858122/l/",
+    
   ),
 ];

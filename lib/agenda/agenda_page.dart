@@ -13,7 +13,7 @@ class AgendaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3,
+      length: 2,
       child: DevScaffold(
         title: "Agenda",
         tabBar: TabBar(
@@ -35,23 +35,19 @@ class AgendaPage extends StatelessWidget {
                 FontAwesomeIcons.mobile,
                 size: 12,
               ),
-            ),
-            Tab(
-              child: Text("Web & More"),
-              icon: Icon(
-                FontAwesomeIcons.chrome,
-                size: 12,
-              ),
             )
           ],
         ),
         body: TabBarView(
           children: <Widget>[
+            //Cloud
             SessionList(
-              allSessions: sessions,
+              allSessions: sessions.where((item) => item.track == 'cloud').toList(),
             ),
-            Container(),
-            Container(),
+            //Mobile
+            SessionList(
+              allSessions: sessions.where((item) => item.track == 'mobile').toList(),
+            )
           ],
         ),
       ),
